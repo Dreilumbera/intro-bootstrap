@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF8-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"/>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous">
+  </script>
+  </head>
+  <body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-warning-subtle sticky-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="image/alas_black-01.png" alt="logo" style="height: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About me">About me</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input 
+            class="form-control me-2" 
+            type="search" 
+            placeholder="Search" 
+            aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- closing of navbar -->
+
+    <!-- Carousel -->
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button 
+          type="button" 
+          data-bs-target="#carouselExampleCaptions" 
+          data-bs-slide-to="0" class="active" 
+          aria-current="true" 
+          aria-label="Slide 1"></button>
+          <button 
+          type="button" 
+          data-bs-target="#carouselExampleCaptions" 
+          data-bs-slide-to="1" 
+          aria-label="Slide 2"></button>
+          <button 
+          type="button" 
+          data-bs-target="#carouselExampleCaptions" 
+          data-bs-slide-to="2" 
+          aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height: 500;">
+          <div class="carousel-item active">
+            <img src="image/FMO-5.jpg" class="d-block w-100" alt="Ace Photograpy">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/FMO-4.jpg" class="d-block w-100" alt="Ace Photograpy">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/CP.jpg" class="d-block w-100" alt="Ace Photograpy">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+ 
+   <!-- Carousel end tag -->
+
+   <!-- Courses -->
+
+   <h2 id="Courses" class="text-center pd-5 mt-5 mb-5">Courses</h2>
+   <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="image/Claret-6.jpg" class="card-img-top" alt="Portraits">
+          <div class="card-body">
+            <h5 class="card-title">Portraits</h5>
+            <p class="card-text">Any Portraits.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col"><div class="card" style="width: 18rem;">
+        <img src="image/CR.w-4.jpg" class="card-img-top" alt="Nature">
+        <div class="card-body">
+          <h5 class="card-title">Nature</h5>
+          <p class="card-text">All about nature.</p>
+        </div>
+      </div></div>
+      <div class="col"><div class="card" style="width: 18rem;">
+        <img src="image/Shore-0147.jpg" class="card-img-top" alt="Me">
+        <div class="card-body">
+          <h5 class="card-title">Me</h5>
+          <p class="card-text">All about me.</p>
+        </div>
+      </div></div>
+    </div>
+   </div>
+   <!-- end of courses -->
+   
+   <!-- Portfolio -->
+   <h2 id="Portfolio" class="text-center pd-5 mt-5 mb-5">Portfolio</h2>
+
+   <div class="container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/20161231-P1010020.jpg" class="d-block w-100" alt="Ace Photograpy">
+        </div>
+        <div class="carousel-item">
+          <img src="image/CP-4.jpg" class="d-block w-100" alt="Ace Photograpy">
+        </div>
+        <div class="carousel-item">
+          <img src="image/13.jpg" class="d-block w-100" alt="Ace Photograpy">
+        </div>
+        <div class="carousel-item">
+          <img src="image/_DSC0030.JPG" class="d-block w-100" alt="Ace Photograpy">
+        </div>
+        <div class="carousel-item">
+          <img src="image/CP-2.jpg" class="d-block w-100" alt="Ace Photograpy">
+        </div>
+        <div class="carousel-item">
+          <img src="image/CR.jpg" class="d-block w-100" alt="Ace Photograpy">
+        </div>
+        <div class="carousel-item">
+          <img src="image/CR.w-3.jpg" class="d-block w-100" alt="Ace Photograpy">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+   </div>
+
+  
+  <h2 id="About me" class="text-center pd-5 mt-5 mb-5">About me</h2>
+ <p class="fw-bold text-center lh-1">I'm Andrei, an apiring Video Editor,</p>
+ <p class="fw-bold text-center lh-1">Photographer and Videographer based in Las Piñas City.</p>
+ <p class="lh-base text-center">Hey there, I'm Andrei, an apiring Photographer, Videographer and Video Editor.</p>
+ <p class="lh-base text-center">A very hardworking and initiatives to make every work a quality one.</p>
+ <p class="lh-base text-center">Started since 5 years ago and still counting.</p>
+ <p class="lh-base text-center">Hope you supported me till I die.</p>
+  <footer>
+    <p class="text-center bg-warning-subtle" style="height: 100px;"> 
+      @andrei Lumbera 2023 
+    <a href="https://www.facebook.com/AlasTVVlog/"><i class="fa-brands fa-facebook">
+    </i></a>
+    <a href="https://www.instagram.com/andreilumbera/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://twitter.com/acerlmbr"><i class="fa-brands fa-x-twitter"></i> </a>
+  </p>
+  
+  </footer>
+  <script src="https://kit.fontawesome.com/5e21f58a61.js" crossorigin="anonymous"></script>
+
+
+   
+
+
+
+  </body>
+</html>
